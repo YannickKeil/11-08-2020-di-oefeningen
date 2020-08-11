@@ -43,17 +43,24 @@ namespace Oefening_4
 
         private void btnLamineren_Click(object sender, EventArgs e)
         {
+            //methode 1 
             //btnBijschrijven.Enabled = false;
             //btnUitscheuren.Enabled = false;
             //btnToevoegen.Enabled = false;
             //btnLamineren.Enabled = false;
-            foreach (Control c in Controls)
+            // methode 2
+            //foreach (Control c in Controls)
+            //{
+            //    Button b = c as Button;
+            //    if (b != null)
+            //    {
+            //        b.Enabled = false;
+            //    }
+            //}
+            //methode 3 (benjamin gevonden)
+            foreach (var item in ActiveForm.Controls.OfType<Button>())
             {
-                Button b = c as Button;
-                if (b != null)
-                {
-                    b.Enabled = false;
-                }
+                item.Enabled = false;
             }
         }
         private void lbNotitieboekje_SelectedIndexChanged(object sender, EventArgs e)
