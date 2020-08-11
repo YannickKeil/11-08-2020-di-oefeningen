@@ -28,7 +28,7 @@ namespace oefening_1
             {
                 lbActief.Items.Add(lbInactief.SelectedItem);
                 lbInactief.Items.Remove(lbInactief.SelectedItem);
-            }
+            }           
             else
             {
                 MessageBox.Show("oops geen item selected");
