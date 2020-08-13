@@ -41,11 +41,10 @@ namespace oefening_2
                 }
             }
 
-            if (tbVoornaam != "" $$ tbAchternaam != "" $$ tbStraat != "" $$ tbNummer != "" $$ tbGemeente != "" $$ tbPostcode != "" )         
+            if (tbVoornaam.Text != "" $$ tbAchternaam.Text != "" $$ tbStraat.Text != "" $$ tbNummer.Text != "" $$ tbGemeente.Text != "" $$ tbPostcode.Text != "" )         
             MessageBox.Show($"uw naam is {tbVoornaam.Text} {tbAchternaam.Text}. \n Uw adress is {tbStraat.Text} {tbNummer.Text}, {tbGemeente.Text} {tbPostcode.Text} in {provincie}. \n Uw leeftijd is {nudLeeftijd.Text} en je bent een {geslacht}"); //nudLeeftijd.Text is eigenlijk fout zou nudLeeftijd.Value zijn.
             else
-                MessageBox.Show("Vul alles in a.u.b.");
-
+            MessageBox.Show("Vul alles in a.u.b.");
         }
     }
 }
