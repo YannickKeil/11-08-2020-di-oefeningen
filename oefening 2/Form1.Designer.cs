@@ -32,32 +32,32 @@
             this.tbAchternaam = new System.Windows.Forms.TextBox();
             this.tbStraat = new System.Windows.Forms.MaskedTextBox();
             this.gbNaam = new System.Windows.Forms.GroupBox();
-            this.lVoornaam = new System.Windows.Forms.Label();
             this.lAchternaam = new System.Windows.Forms.Label();
+            this.lVoornaam = new System.Windows.Forms.Label();
             this.gbAdress = new System.Windows.Forms.GroupBox();
-            this.lStraat = new System.Windows.Forms.Label();
-            this.lPostcode = new System.Windows.Forms.Label();
-            this.tbPostcode = new System.Windows.Forms.TextBox();
-            this.lNummer = new System.Windows.Forms.Label();
-            this.tbNummer = new System.Windows.Forms.TextBox();
-            this.tbGemeente = new System.Windows.Forms.TextBox();
             this.lGemeente = new System.Windows.Forms.Label();
+            this.tbGemeente = new System.Windows.Forms.TextBox();
+            this.tbNummer = new System.Windows.Forms.TextBox();
+            this.lNummer = new System.Windows.Forms.Label();
+            this.tbPostcode = new System.Windows.Forms.TextBox();
+            this.lPostcode = new System.Windows.Forms.Label();
+            this.lStraat = new System.Windows.Forms.Label();
             this.nudLeeftijd = new System.Windows.Forms.NumericUpDown();
             this.lLeeftijd = new System.Windows.Forms.Label();
             this.gbGeslacht = new System.Windows.Forms.GroupBox();
-            this.rbMan = new System.Windows.Forms.RadioButton();
             this.rbVrouw = new System.Windows.Forms.RadioButton();
+            this.rbMan = new System.Windows.Forms.RadioButton();
             this.gbProvincie = new System.Windows.Forms.GroupBox();
-            this.rbAntwerpen = new System.Windows.Forms.RadioButton();
-            this.rbLimburg = new System.Windows.Forms.RadioButton();
-            this.rbOostVlaanderen = new System.Windows.Forms.RadioButton();
-            this.rbVlaamsBrabant = new System.Windows.Forms.RadioButton();
-            this.rbWestVlaanderen = new System.Windows.Forms.RadioButton();
-            this.rbWaalsBrabant = new System.Windows.Forms.RadioButton();
-            this.rbHenegouwen = new System.Windows.Forms.RadioButton();
-            this.rbLuik = new System.Windows.Forms.RadioButton();
-            this.rbLuxemburg = new System.Windows.Forms.RadioButton();
             this.rbNamen = new System.Windows.Forms.RadioButton();
+            this.rbLuxemburg = new System.Windows.Forms.RadioButton();
+            this.rbLuik = new System.Windows.Forms.RadioButton();
+            this.rbHenegouwen = new System.Windows.Forms.RadioButton();
+            this.rbWaalsBrabant = new System.Windows.Forms.RadioButton();
+            this.rbWestVlaanderen = new System.Windows.Forms.RadioButton();
+            this.rbVlaamsBrabant = new System.Windows.Forms.RadioButton();
+            this.rbOostVlaanderen = new System.Windows.Forms.RadioButton();
+            this.rbLimburg = new System.Windows.Forms.RadioButton();
+            this.rbAntwerpen = new System.Windows.Forms.RadioButton();
             this.btnIndienen = new System.Windows.Forms.Button();
             this.gbNaam.SuspendLayout();
             this.gbAdress.SuspendLayout();
@@ -100,15 +100,6 @@
             this.gbNaam.TabStop = false;
             this.gbNaam.Text = "Naam";
             // 
-            // lVoornaam
-            // 
-            this.lVoornaam.AutoSize = true;
-            this.lVoornaam.Location = new System.Drawing.Point(11, 22);
-            this.lVoornaam.Name = "lVoornaam";
-            this.lVoornaam.Size = new System.Drawing.Size(83, 20);
-            this.lVoornaam.TabIndex = 4;
-            this.lVoornaam.Text = "Voornaam";
-            // 
             // lAchternaam
             // 
             this.lAchternaam.AutoSize = true;
@@ -117,6 +108,15 @@
             this.lAchternaam.Size = new System.Drawing.Size(96, 20);
             this.lAchternaam.TabIndex = 5;
             this.lAchternaam.Text = "Achternaam";
+            // 
+            // lVoornaam
+            // 
+            this.lVoornaam.AutoSize = true;
+            this.lVoornaam.Location = new System.Drawing.Point(11, 22);
+            this.lVoornaam.Name = "lVoornaam";
+            this.lVoornaam.Size = new System.Drawing.Size(83, 20);
+            this.lVoornaam.TabIndex = 4;
+            this.lVoornaam.Text = "Voornaam";
             // 
             // gbAdress
             // 
@@ -135,30 +135,28 @@
             this.gbAdress.TabStop = false;
             this.gbAdress.Text = "Adress";
             // 
-            // lStraat
+            // lGemeente
             // 
-            this.lStraat.AutoSize = true;
-            this.lStraat.Location = new System.Drawing.Point(7, 30);
-            this.lStraat.Name = "lStraat";
-            this.lStraat.Size = new System.Drawing.Size(53, 20);
-            this.lStraat.TabIndex = 3;
-            this.lStraat.Text = "Straat";
+            this.lGemeente.AutoSize = true;
+            this.lGemeente.Location = new System.Drawing.Point(101, 91);
+            this.lGemeente.Name = "lGemeente";
+            this.lGemeente.Size = new System.Drawing.Size(85, 20);
+            this.lGemeente.TabIndex = 11;
+            this.lGemeente.Text = "Gemeente";
             // 
-            // lPostcode
+            // tbGemeente
             // 
-            this.lPostcode.AutoSize = true;
-            this.lPostcode.Location = new System.Drawing.Point(7, 91);
-            this.lPostcode.Name = "lPostcode";
-            this.lPostcode.Size = new System.Drawing.Size(76, 20);
-            this.lPostcode.TabIndex = 4;
-            this.lPostcode.Text = "Postcode";
+            this.tbGemeente.Location = new System.Drawing.Point(105, 114);
+            this.tbGemeente.Name = "tbGemeente";
+            this.tbGemeente.Size = new System.Drawing.Size(184, 26);
+            this.tbGemeente.TabIndex = 10;
             // 
-            // tbPostcode
+            // tbNummer
             // 
-            this.tbPostcode.Location = new System.Drawing.Point(11, 114);
-            this.tbPostcode.Name = "tbPostcode";
-            this.tbPostcode.Size = new System.Drawing.Size(71, 26);
-            this.tbPostcode.TabIndex = 5;
+            this.tbNummer.Location = new System.Drawing.Point(242, 53);
+            this.tbNummer.Name = "tbNummer";
+            this.tbNummer.Size = new System.Drawing.Size(55, 26);
+            this.tbNummer.TabIndex = 9;
             // 
             // lNummer
             // 
@@ -169,28 +167,30 @@
             this.lNummer.TabIndex = 8;
             this.lNummer.Text = "Nr.";
             // 
-            // tbNummer
+            // tbPostcode
             // 
-            this.tbNummer.Location = new System.Drawing.Point(242, 53);
-            this.tbNummer.Name = "tbNummer";
-            this.tbNummer.Size = new System.Drawing.Size(55, 26);
-            this.tbNummer.TabIndex = 9;
+            this.tbPostcode.Location = new System.Drawing.Point(11, 114);
+            this.tbPostcode.Name = "tbPostcode";
+            this.tbPostcode.Size = new System.Drawing.Size(71, 26);
+            this.tbPostcode.TabIndex = 5;
             // 
-            // tbGemeente
+            // lPostcode
             // 
-            this.tbGemeente.Location = new System.Drawing.Point(105, 114);
-            this.tbGemeente.Name = "tbGemeente";
-            this.tbGemeente.Size = new System.Drawing.Size(184, 26);
-            this.tbGemeente.TabIndex = 10;
+            this.lPostcode.AutoSize = true;
+            this.lPostcode.Location = new System.Drawing.Point(7, 91);
+            this.lPostcode.Name = "lPostcode";
+            this.lPostcode.Size = new System.Drawing.Size(76, 20);
+            this.lPostcode.TabIndex = 4;
+            this.lPostcode.Text = "Postcode";
             // 
-            // lGemeente
+            // lStraat
             // 
-            this.lGemeente.AutoSize = true;
-            this.lGemeente.Location = new System.Drawing.Point(101, 91);
-            this.lGemeente.Name = "lGemeente";
-            this.lGemeente.Size = new System.Drawing.Size(85, 20);
-            this.lGemeente.TabIndex = 11;
-            this.lGemeente.Text = "Gemeente";
+            this.lStraat.AutoSize = true;
+            this.lStraat.Location = new System.Drawing.Point(7, 30);
+            this.lStraat.Name = "lStraat";
+            this.lStraat.Size = new System.Drawing.Size(53, 20);
+            this.lStraat.TabIndex = 3;
+            this.lStraat.Text = "Straat";
             // 
             // nudLeeftijd
             // 
@@ -219,17 +219,6 @@
             this.gbGeslacht.TabStop = false;
             this.gbGeslacht.Text = "Geslacht";
             // 
-            // rbMan
-            // 
-            this.rbMan.AutoSize = true;
-            this.rbMan.Location = new System.Drawing.Point(11, 25);
-            this.rbMan.Name = "rbMan";
-            this.rbMan.Size = new System.Drawing.Size(65, 24);
-            this.rbMan.TabIndex = 0;
-            this.rbMan.TabStop = true;
-            this.rbMan.Text = "Man";
-            this.rbMan.UseVisualStyleBackColor = true;
-            // 
             // rbVrouw
             // 
             this.rbVrouw.AutoSize = true;
@@ -237,9 +226,20 @@
             this.rbVrouw.Name = "rbVrouw";
             this.rbVrouw.Size = new System.Drawing.Size(79, 24);
             this.rbVrouw.TabIndex = 1;
-            this.rbVrouw.TabStop = true;
             this.rbVrouw.Text = "Vrouw";
             this.rbVrouw.UseVisualStyleBackColor = true;
+            // 
+            // rbMan
+            // 
+            this.rbMan.AutoSize = true;
+            this.rbMan.Checked = true;
+            this.rbMan.Location = new System.Drawing.Point(11, 25);
+            this.rbMan.Name = "rbMan";
+            this.rbMan.Size = new System.Drawing.Size(65, 24);
+            this.rbMan.TabIndex = 0;
+            this.rbMan.TabStop = true;
+            this.rbMan.Text = "Man";
+            this.rbMan.UseVisualStyleBackColor = true;
             // 
             // gbProvincie
             // 
@@ -260,93 +260,15 @@
             this.gbProvincie.TabStop = false;
             this.gbProvincie.Text = "Provincie";
             // 
-            // rbAntwerpen
+            // rbNamen
             // 
-            this.rbAntwerpen.AutoSize = true;
-            this.rbAntwerpen.Location = new System.Drawing.Point(11, 25);
-            this.rbAntwerpen.Name = "rbAntwerpen";
-            this.rbAntwerpen.Size = new System.Drawing.Size(111, 24);
-            this.rbAntwerpen.TabIndex = 0;
-            this.rbAntwerpen.TabStop = true;
-            this.rbAntwerpen.Text = "Antwerpen";
-            this.rbAntwerpen.UseVisualStyleBackColor = true;
-            // 
-            // rbLimburg
-            // 
-            this.rbLimburg.AutoSize = true;
-            this.rbLimburg.Location = new System.Drawing.Point(11, 55);
-            this.rbLimburg.Name = "rbLimburg";
-            this.rbLimburg.Size = new System.Drawing.Size(91, 24);
-            this.rbLimburg.TabIndex = 1;
-            this.rbLimburg.TabStop = true;
-            this.rbLimburg.Text = "Limburg";
-            this.rbLimburg.UseVisualStyleBackColor = true;
-            // 
-            // rbOostVlaanderen
-            // 
-            this.rbOostVlaanderen.AutoSize = true;
-            this.rbOostVlaanderen.Location = new System.Drawing.Point(11, 85);
-            this.rbOostVlaanderen.Name = "rbOostVlaanderen";
-            this.rbOostVlaanderen.Size = new System.Drawing.Size(155, 24);
-            this.rbOostVlaanderen.TabIndex = 2;
-            this.rbOostVlaanderen.TabStop = true;
-            this.rbOostVlaanderen.Text = "Oost-Vlaanderen";
-            this.rbOostVlaanderen.UseVisualStyleBackColor = true;
-            // 
-            // rbVlaamsBrabant
-            // 
-            this.rbVlaamsBrabant.AutoSize = true;
-            this.rbVlaamsBrabant.Location = new System.Drawing.Point(11, 115);
-            this.rbVlaamsBrabant.Name = "rbVlaamsBrabant";
-            this.rbVlaamsBrabant.Size = new System.Drawing.Size(149, 24);
-            this.rbVlaamsBrabant.TabIndex = 3;
-            this.rbVlaamsBrabant.TabStop = true;
-            this.rbVlaamsBrabant.Text = "Vlaams-Brabant";
-            this.rbVlaamsBrabant.UseVisualStyleBackColor = true;
-            // 
-            // rbWestVlaanderen
-            // 
-            this.rbWestVlaanderen.AutoSize = true;
-            this.rbWestVlaanderen.Location = new System.Drawing.Point(11, 145);
-            this.rbWestVlaanderen.Name = "rbWestVlaanderen";
-            this.rbWestVlaanderen.Size = new System.Drawing.Size(158, 24);
-            this.rbWestVlaanderen.TabIndex = 4;
-            this.rbWestVlaanderen.TabStop = true;
-            this.rbWestVlaanderen.Text = "West-Vlaanderen";
-            this.rbWestVlaanderen.UseVisualStyleBackColor = true;
-            // 
-            // rbWaalsBrabant
-            // 
-            this.rbWaalsBrabant.AutoSize = true;
-            this.rbWaalsBrabant.Location = new System.Drawing.Point(11, 175);
-            this.rbWaalsBrabant.Name = "rbWaalsBrabant";
-            this.rbWaalsBrabant.Size = new System.Drawing.Size(140, 24);
-            this.rbWaalsBrabant.TabIndex = 5;
-            this.rbWaalsBrabant.TabStop = true;
-            this.rbWaalsBrabant.Text = "Waals-Brabant";
-            this.rbWaalsBrabant.UseVisualStyleBackColor = true;
-            // 
-            // rbHenegouwen
-            // 
-            this.rbHenegouwen.AutoSize = true;
-            this.rbHenegouwen.Location = new System.Drawing.Point(11, 205);
-            this.rbHenegouwen.Name = "rbHenegouwen";
-            this.rbHenegouwen.Size = new System.Drawing.Size(129, 24);
-            this.rbHenegouwen.TabIndex = 6;
-            this.rbHenegouwen.TabStop = true;
-            this.rbHenegouwen.Text = "Henegouwen";
-            this.rbHenegouwen.UseVisualStyleBackColor = true;
-            // 
-            // rbLuik
-            // 
-            this.rbLuik.AutoSize = true;
-            this.rbLuik.Location = new System.Drawing.Point(11, 235);
-            this.rbLuik.Name = "rbLuik";
-            this.rbLuik.Size = new System.Drawing.Size(63, 24);
-            this.rbLuik.TabIndex = 7;
-            this.rbLuik.TabStop = true;
-            this.rbLuik.Text = "Luik";
-            this.rbLuik.UseVisualStyleBackColor = true;
+            this.rbNamen.AutoSize = true;
+            this.rbNamen.Location = new System.Drawing.Point(11, 295);
+            this.rbNamen.Name = "rbNamen";
+            this.rbNamen.Size = new System.Drawing.Size(85, 24);
+            this.rbNamen.TabIndex = 9;
+            this.rbNamen.Text = "Namen";
+            this.rbNamen.UseVisualStyleBackColor = true;
             // 
             // rbLuxemburg
             // 
@@ -355,20 +277,90 @@
             this.rbLuxemburg.Name = "rbLuxemburg";
             this.rbLuxemburg.Size = new System.Drawing.Size(113, 24);
             this.rbLuxemburg.TabIndex = 8;
-            this.rbLuxemburg.TabStop = true;
             this.rbLuxemburg.Text = "Luxemburg";
             this.rbLuxemburg.UseVisualStyleBackColor = true;
             // 
-            // rbNamen
+            // rbLuik
             // 
-            this.rbNamen.AutoSize = true;
-            this.rbNamen.Location = new System.Drawing.Point(11, 295);
-            this.rbNamen.Name = "rbNamen";
-            this.rbNamen.Size = new System.Drawing.Size(85, 24);
-            this.rbNamen.TabIndex = 9;
-            this.rbNamen.TabStop = true;
-            this.rbNamen.Text = "Namen";
-            this.rbNamen.UseVisualStyleBackColor = true;
+            this.rbLuik.AutoSize = true;
+            this.rbLuik.Location = new System.Drawing.Point(11, 235);
+            this.rbLuik.Name = "rbLuik";
+            this.rbLuik.Size = new System.Drawing.Size(63, 24);
+            this.rbLuik.TabIndex = 7;
+            this.rbLuik.Text = "Luik";
+            this.rbLuik.UseVisualStyleBackColor = true;
+            // 
+            // rbHenegouwen
+            // 
+            this.rbHenegouwen.AutoSize = true;
+            this.rbHenegouwen.Location = new System.Drawing.Point(11, 205);
+            this.rbHenegouwen.Name = "rbHenegouwen";
+            this.rbHenegouwen.Size = new System.Drawing.Size(129, 24);
+            this.rbHenegouwen.TabIndex = 6;
+            this.rbHenegouwen.Text = "Henegouwen";
+            this.rbHenegouwen.UseVisualStyleBackColor = true;
+            // 
+            // rbWaalsBrabant
+            // 
+            this.rbWaalsBrabant.AutoSize = true;
+            this.rbWaalsBrabant.Location = new System.Drawing.Point(11, 175);
+            this.rbWaalsBrabant.Name = "rbWaalsBrabant";
+            this.rbWaalsBrabant.Size = new System.Drawing.Size(140, 24);
+            this.rbWaalsBrabant.TabIndex = 5;
+            this.rbWaalsBrabant.Text = "Waals-Brabant";
+            this.rbWaalsBrabant.UseVisualStyleBackColor = true;
+            // 
+            // rbWestVlaanderen
+            // 
+            this.rbWestVlaanderen.AutoSize = true;
+            this.rbWestVlaanderen.Location = new System.Drawing.Point(11, 145);
+            this.rbWestVlaanderen.Name = "rbWestVlaanderen";
+            this.rbWestVlaanderen.Size = new System.Drawing.Size(158, 24);
+            this.rbWestVlaanderen.TabIndex = 4;
+            this.rbWestVlaanderen.Text = "West-Vlaanderen";
+            this.rbWestVlaanderen.UseVisualStyleBackColor = true;
+            // 
+            // rbVlaamsBrabant
+            // 
+            this.rbVlaamsBrabant.AutoSize = true;
+            this.rbVlaamsBrabant.Location = new System.Drawing.Point(11, 115);
+            this.rbVlaamsBrabant.Name = "rbVlaamsBrabant";
+            this.rbVlaamsBrabant.Size = new System.Drawing.Size(149, 24);
+            this.rbVlaamsBrabant.TabIndex = 3;
+            this.rbVlaamsBrabant.Text = "Vlaams-Brabant";
+            this.rbVlaamsBrabant.UseVisualStyleBackColor = true;
+            // 
+            // rbOostVlaanderen
+            // 
+            this.rbOostVlaanderen.AutoSize = true;
+            this.rbOostVlaanderen.Location = new System.Drawing.Point(11, 85);
+            this.rbOostVlaanderen.Name = "rbOostVlaanderen";
+            this.rbOostVlaanderen.Size = new System.Drawing.Size(155, 24);
+            this.rbOostVlaanderen.TabIndex = 2;
+            this.rbOostVlaanderen.Text = "Oost-Vlaanderen";
+            this.rbOostVlaanderen.UseVisualStyleBackColor = true;
+            // 
+            // rbLimburg
+            // 
+            this.rbLimburg.AutoSize = true;
+            this.rbLimburg.Location = new System.Drawing.Point(11, 55);
+            this.rbLimburg.Name = "rbLimburg";
+            this.rbLimburg.Size = new System.Drawing.Size(91, 24);
+            this.rbLimburg.TabIndex = 1;
+            this.rbLimburg.Text = "Limburg";
+            this.rbLimburg.UseVisualStyleBackColor = true;
+            // 
+            // rbAntwerpen
+            // 
+            this.rbAntwerpen.AutoSize = true;
+            this.rbAntwerpen.Checked = true;
+            this.rbAntwerpen.Location = new System.Drawing.Point(11, 25);
+            this.rbAntwerpen.Name = "rbAntwerpen";
+            this.rbAntwerpen.Size = new System.Drawing.Size(111, 24);
+            this.rbAntwerpen.TabIndex = 0;
+            this.rbAntwerpen.TabStop = true;
+            this.rbAntwerpen.Text = "Antwerpen";
+            this.rbAntwerpen.UseVisualStyleBackColor = true;
             // 
             // btnIndienen
             // 
