@@ -19,7 +19,7 @@ namespace Oefening_4
         static Notitieboekje notitieboekje = new Notitieboekje();
         private void btnToevoegen_Click(object sender, EventArgs e)
         {
-
+            // alle notities zijn alles wat ik fout en teveel aan het doen was. (was het moeilijker aan het maken dan het moest.
             //Notities newNotitie = new Notities {$"Notitie {lbNotitieboekje.Items.Count + 1}", tbBijschrijven.Text, lbNotitieboekje.Items.Count + 1 });
             lbNotitieboekje.Items.Add($"Notitie {lbNotitieboekje.Items.Count + 1}");     
             
@@ -70,5 +70,11 @@ namespace Oefening_4
                 tbNotities.Text = notitieboekje.BekijkNotitie(lbNotitieboekje.SelectedIndex);
             }     
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

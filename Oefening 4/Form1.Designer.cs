@@ -74,6 +74,7 @@
             this.tbBijschrijven.Name = "tbBijschrijven";
             this.tbBijschrijven.Size = new System.Drawing.Size(263, 26);
             this.tbBijschrijven.TabIndex = 4;
+            
             // 
             // lblBijschrijven
             // 
@@ -130,7 +131,7 @@
             this.tbNotities.Location = new System.Drawing.Point(297, 55);
             this.tbNotities.Multiline = true;
             this.tbNotities.Name = "tbNotities";
-            this.tbNotities.Size = new System.Drawing.Size(253, 392);
+            this.tbNotities.Size = new System.Drawing.Size(253, 384);
             this.tbNotities.TabIndex = 10;
             // 
             // Form1
@@ -149,7 +150,9 @@
             this.Controls.Add(this.lblNotitieBoekje);
             this.Controls.Add(this.lbNotitieboekje);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

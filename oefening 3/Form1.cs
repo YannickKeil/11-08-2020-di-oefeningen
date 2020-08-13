@@ -19,7 +19,7 @@ namespace oefening_3
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(dtpDatum.Value.ToString("dd/MM/yyyy"));
             MessageBox.Show(dtpDatum.Value.ToShortDateString());
             MessageBox.Show(dtpDatum.Value.Date.ToString("d"));
         }

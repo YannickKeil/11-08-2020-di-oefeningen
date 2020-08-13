@@ -21,6 +21,7 @@ namespace oefening_5
         private void btnAdd_Click(object sender, EventArgs e)
         {
             lbText.Items.Add(tbBijvoegen.Text);
+            tbBijvoegen.Clear();
         }
 
         private void btnRemove_Click(object sender, EventArgs e)

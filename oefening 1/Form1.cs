@@ -28,16 +28,17 @@ namespace oefening_1
             {
                 lbActief.Items.Add(lbInactief.SelectedItem);
                 lbInactief.Items.Remove(lbInactief.SelectedItem);
-            }           
+
+                //string mijnItem = lbInactief.SelectedItem.ToString();
+                //lbInactief.Items.Remove(lbInactief.SelectedItem);
+                //lbActief.Items.Add(mijnItem);
+                //preferencie ken omdat dit normaale logica volgt
+            }
             else
             {
                 MessageBox.Show("oops geen item selected");
             }
-            
-            
-  
         }
-
         private void btnNaarInactief_Click(object sender, EventArgs e)
         {
             if (lbActief.SelectedItems.Count > 0)
@@ -49,6 +50,19 @@ namespace oefening_1
             {
                 MessageBox.Show("oops geen item selected");
             }
+        }
+        public void SwitchLists (ListBox listbox1, ListBox listbox2)
+        {
+            if (listbox1.SelectedItems.Count > 0)
+            {
+                listbox2.Items.Add(listbox1.SelectedItem);
+                listbox1.Items.Remove(listbox1.SelectedItem);
+            }
+            else
+            {
+                MessageBox.Show("oops geen item selected");
+            }
+            // methode voor switchen
         }
     }
 }

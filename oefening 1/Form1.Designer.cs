@@ -34,6 +34,8 @@
             this.btnNaarInactief = new System.Windows.Forms.Button();
             this.lbInactief = new System.Windows.Forms.ListBox();
             this.lbActief = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbToevoegen
@@ -80,6 +82,7 @@
             this.lbInactief.Location = new System.Drawing.Point(42, 94);
             this.lbInactief.Name = "lbInactief";
             this.lbInactief.Size = new System.Drawing.Size(192, 304);
+            this.lbInactief.Sorted = true;
             this.lbInactief.TabIndex = 4;
             // 
             // lbActief
@@ -89,13 +92,34 @@
             this.lbActief.Location = new System.Drawing.Point(382, 94);
             this.lbActief.Name = "lbActief";
             this.lbActief.Size = new System.Drawing.Size(187, 304);
+            this.lbActief.Sorted = true;
             this.lbActief.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(38, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "inactief";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(378, 71);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "actief";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbActief);
             this.Controls.Add(this.lbInactief);
             this.Controls.Add(this.btnNaarInactief);
@@ -103,6 +127,7 @@
             this.Controls.Add(this.btnToevoegem);
             this.Controls.Add(this.tbToevoegen);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -117,6 +142,8 @@
         private System.Windows.Forms.Button btnNaarInactief;
         private System.Windows.Forms.ListBox lbInactief;
         private System.Windows.Forms.ListBox lbActief;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
